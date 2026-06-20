@@ -1,0 +1,13 @@
+#what is goal of lint.yml
+#Goal : linter will check format syntax ,format, identation correct or not
+name: Auto linter
+
+on:
+  push:
+    paths: "*.py"
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout/clone the code
+        uses: actions/checkout@v7
