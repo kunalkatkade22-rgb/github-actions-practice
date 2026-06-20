@@ -1,0 +1,13 @@
+workflows:
+  name: hello
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1st output
+        run: echo "hello dosto"
