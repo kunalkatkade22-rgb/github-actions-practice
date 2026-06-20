@@ -1,5 +1,6 @@
-workflows:
-  name: hello
+
+
+name: hello  
 
 on:
   workflow_dispatch:
